@@ -25,9 +25,9 @@ const props = defineProps({
   display: flex;
   font-size: 12vw;
   line-height: 2;
-  animation: bounce 4s ease infinite ,
-  gradient 15s ease infinite;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: bounce 4s ease infinite,
+  gradient 20s ease alternate infinite;
+  background: linear-gradient(-45deg, #3DC2F5, #6E9AFF, #422EE6, #B65EFF, #F757FA);
   -webkit-background-clip: text;
   color: transparent;
   background-size: 400% 400%;
