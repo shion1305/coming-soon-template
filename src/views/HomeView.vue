@@ -5,26 +5,29 @@ import TextBouncing from "@/components/TextBouncing";
 <template>
   <div class="home">
     <TextBouncing text="Coming Soon..." color="#ffffff" class="text-bouncing"/>
-    <div>令和4</div>
+    <div class="title-below">タイトルタイトル</div>
   </div>
 </template>
 <style>
-body{
+body {
   margin: 0;
 }
 </style>
 <style scoped>
+.title-below {
+  background: linear-gradient(-90deg, #3DC2F5, #6E9AFF, #422EE6, #B65EFF, #F757FA);
+  -webkit-background-clip: text;
+  font-size: 4vw;
+  color: transparent;
+}
+
 .home {
   animation: gradient 15s ease infinite;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.text-bouncing {
-  margin: auto;
-  vertical-align: middle;
 }
 
 </style>
