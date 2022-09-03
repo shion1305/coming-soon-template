@@ -1,10 +1,10 @@
 <script setup>
 
-// import TextBouncing from "@/components/TextBouncing";
+import TextBouncing from "@/components/TextBouncing";
 </script>
 <template>
   <div class="home">
-<!--    <TextBouncing text="Coming Soon..." color="#ffffff" class="text-bouncing"/>-->
+    <TextBouncing text="Coming Soon..." color="#ffffff" class="text-bouncing"/>
     <div>令和4</div>
   </div>
 </template>
