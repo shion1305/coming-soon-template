@@ -30,6 +30,7 @@ const props = defineProps({
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   -webkit-background-clip: text;
   color: transparent;
+  background-size: 400% 400%;
 }
 
 .parent {
@@ -45,7 +46,6 @@ const props = defineProps({
 
 @keyframes bounce {
   0% {
-    background-position: 100% 100%;
     transform: scale(1, 1) translateY(0);
   }
   2% {
@@ -65,14 +65,27 @@ const props = defineProps({
   }
   25% {
     transform: scale(1, 1) translateY(0);
+
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
   }
-  50% {
+}
+
+@keyframes gradient {
+  0% {
     background-position: 0 0;
+  }
+  25% {
+    background-position: 0 100%;
+  }
+
+  50% {
+    background-position: 100% 100%;
   }
 
   100% {
-    transform: scale(1, 1) translateY(0);
-    background-position: 100% 100%;
+    background-position: 100% 0%;
   }
 }
 </style>
