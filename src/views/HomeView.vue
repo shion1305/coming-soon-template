@@ -4,8 +4,8 @@ import TextBouncing from "@/components/TextBouncing";
 </script>
 <template>
   <div class="home">
-    <TextBouncing text="Coming Soon..." color="#ffffff" class="text-bouncing"/>
-    <div class="title-below">タイトルタイトル</div>
+    <TextBouncing text="Coming Soon..." color="#ffffff" class="bouncing-text"/>
+    <div class="title-below">令和4年<br><span>「がんの痛みは</span><span>正しい知識で取る」</span><br>市民向けシンポジウム</div>
   </div>
 </template>
 <style>
@@ -13,12 +13,15 @@ body {
   margin: 0;
 }
 </style>
-<style scoped>
+<style scoped lang="scss">
 .title-below {
-  background: linear-gradient(-90deg, #3DC2F5, #6E9AFF, #422EE6, #B65EFF, #F757FA);
+  background: linear-gradient(-90deg, #59E4EB, #27F2A3, #2DDB4A);
   -webkit-background-clip: text;
   font-size: 0.6em;
   color: transparent;
+  > span {
+    display: inline-block;
+  }
 }
 
 .home {
