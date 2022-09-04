@@ -23,7 +23,6 @@ const props = defineProps({
 
 .bouncing-text {
   display: flex;
-  font-size: 12vw;
   line-height: 2;
   animation: bounce 4s ease infinite,
   gradient 20s ease alternate infinite;
