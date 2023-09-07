@@ -5,7 +5,7 @@ import TextBouncing from "@/components/TextBouncing";
 <template>
   <div class="home">
     <TextBouncing text="Coming Soon..." color="#ffffff" class="bouncing-text"/>
-    <div class="title-below">令和4年<br><span>「がんの痛みは</span><span>正しい知識で取る」</span><br>市民向けシンポジウム</div>
+    <div class="title-below">令和5年<br><span>「がんの痛みは</span><span>正しい知識で取る」</span><br>市民向けシンポジウム</div>
   </div>
 </template>
 <style>
